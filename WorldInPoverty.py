@@ -141,7 +141,7 @@ with c2:
         margin=dict(l=20, r=20, t=20, b=20),)
     st.plotly_chart(utils.aplicarFormatoChart(fig2,legend=True),use_container_width=True)
 with c3:
-    st.subheader("Positive news? maybe...")
+    st.subheader("Positive news? maybe...🤔")
     st.write("""
             Global poverty has decreased due to economic growth, especially in Asia and Latin America, where industrialization and tech advancements boosted job opportunities. Education investments have empowered people to access better jobs, and social safety nets offer essential support. Inequality and climate change remain, requiring sustained efforts through sustainable development strategies, targeted policies, and international cooperation for further poverty reduction and a more prosperous future.
             **Central Africa remains critical and this haven't changed in years.**
@@ -215,9 +215,9 @@ with c2:
     dfTopGini.columns=['Country','Gini Index','Year']
     utils.generateTable(dfTopGini)
 with c3:
-    st.subheader("Sadly, being poor it's related to inequality")
+    st.subheader("Sadly, poverty is related to inequality 😭")
     st.write("""
-The Gini index, or Gini coefficient, is a statistical measure used to quantify the level of income or wealth inequality within a population. It is represented by a value between 0 and 1, where 0 represents perfect equality (everyone has the same income or wealth) and 1 represents perfect inequality (one person has all the income or wealth, while everyone else has none).
+The Gini index, or Gini coefficient, is a statistical measure used to quantify the level of income or wealth inequality within a population. It is represented by a value between 0 % and 100%, where 0 represents perfect equality (everyone has the same income or wealth) and 100% represents perfect inequality (one person has all the income or wealth, while everyone else has none).
 
 Essentially, the Gini index measures the extent to which the distribution of income or wealth deviates from perfect equality. A higher Gini index indicates greater inequality, meaning that a smaller portion of the population holds a larger share of the total income or wealth, while a lower Gini index suggests a more equal distribution.
              """)
