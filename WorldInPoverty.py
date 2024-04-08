@@ -67,7 +67,7 @@ porcPoverty=populationPoverty/population
 
 # Sidebar
 with st.sidebar:
-    st.write("**Author:** Germán Andrés Castaño Vásquez**")
+    st.write("**Author:** Germán Andrés Castaño Vásquez")
     st.write("""
              **Sources:**
              * [World Bank Poverty Data](https://data.worldbank.org/topic/11)
