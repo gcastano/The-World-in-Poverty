@@ -73,7 +73,7 @@ with st.sidebar:
              * [World Bank Poverty Data](https://data.worldbank.org/topic/11)
              * [World Bank Population](https://data.worldbank.org/indicator/SP.POP.TOTL)
              * Images from [SVGRepo](https://www.svgrepo.com/)
-             * **100% developed using [Streamlit](https://streamlit.io/)**, [Poltly](https://plotly.com/) and Python ❤️             
+             * **100% developed using [Streamlit](https://streamlit.io/)**, [Plotly](https://plotly.com/) and Python ❤️             
              * Some texts were generated using ChatGPT and adapted by the author.
              """)
 
