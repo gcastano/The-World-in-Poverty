@@ -1,0 +1,84 @@
+*{
+    font-family:"Poppins";
+}
+
+div[data-testid="stAppViewBlockContainer"]{
+    padding-top:0px
+    }
+
+div.iconMetric{   
+    padding:10px;
+    border-radius:10px;
+    box-sizing:border-box;
+ }
+
+ div[data-testid="stAppViewBlockContainer"] div[data-testid="stVerticalBlockBorderWrapper"] div[data-testid="stVerticalBlockBorderWrapper"],
+ div[data-testid="stVerticalBlockBorderWrapper"] div[data-testid="stHorizontalBlock"] div[data-testid="column"] div[data-testid="stVerticalBlockBorderWrapper"]  {
+    background-color:white;
+    padding:10px;
+    border-radius:15px;
+    font-weight: bolder;
+    /* border: 5px solid #b0b1ca; */
+    box-shadow: 0px 0px 10px rgba(81, 85, 195,0.2)
+}
+
+/* div[data-testid="stSidebarUserContent"] label,
+div[data-testid="stSidebarUserContent"],
+div[data-testid="stSidebarNav"] li span{
+    color:white;
+} */
+h1,
+h3,
+label[data-testid="stMetricLabel"] p{  
+    font-weight:bold;
+    color:#A94438
+}
+    
+div[data-testid="stMetricValue"]{
+    font-size:3em
+}
+
+/*Estilos para tablas*/
+
+.dashboardTable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;    
+    width:100%
+}
+.dashboardTable thead tr {
+    background-color: #f4b3b3;
+    color: #5f5d51;
+    text-align: left;
+}
+.dashboardTable th,
+.dashboardTable td {
+    /* padding: 5px 5px; */
+    border:none;
+}
+
+.dashboardTable tbody tr {
+    border-bottom: 1px solid #ecedff;
+    background-color:white;
+}
+
+.dashboardTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/*Specific styles*/
+div[data-testid="stHorizontalBlock"]:nth-child(1) div[data-testid="column"]>div {
+    box-shadow: none!Important;
+}
+
+/* Individual styles*/
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-z5fcl4.ea3mdgi5 > div > div > div > div:nth-child(8) > div.st-emotion-cache-12w0qpk.e1f1d6gn3 > div,
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-z5fcl4.ea3mdgi5 > div > div > div > div:nth-child(7) > div:nth-child(1) > div,
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-z5fcl4.ea3mdgi5 > div > div > div > div:nth-child(6) > div.st-emotion-cache-12w0qpk.e1f1d6gn3 > div{
+box-shadow:none;
+background-color:#e5dec3;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-z5fcl4.ea3mdgi5 > div > div > div > div:nth-child(7) > div:nth-child(1) > div div{
+background-color:#e5dec3
+}

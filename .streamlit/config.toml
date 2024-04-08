@@ -1,0 +1,9 @@
+[theme]
+base="light"
+primaryColor="#fc9272"
+backgroundColor="#FBF3D5"
+secondaryBackgroundColor="white"
+font="Poppins"
+
+[server]
+enableStaticServing = true
