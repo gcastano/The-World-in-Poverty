@@ -67,14 +67,15 @@ porcPoverty=populationPoverty/population
 
 # Sidebar
 with st.sidebar:
-    st.write("**Author:** Germán Andrés Castaño Vásquez")
+    st.write("**Author:** Germán Andrés Castaño Vásquez [LinkedIn](https://www.linkedin.com/in/germancastano/)")
     st.write("""
              **Sources:**
              * [World Bank Poverty Data](https://data.worldbank.org/topic/11)
              * [World Bank Population](https://data.worldbank.org/indicator/SP.POP.TOTL)
              * Images from [SVGRepo](https://www.svgrepo.com/)
-             * **100% developed using [Streamlit](https://streamlit.io/)**, [Plotly](https://plotly.com/) and Python ❤️             
+             * **100% developed using [Streamlit](https://streamlit.io/)**, [Plotly](https://plotly.com/) and Python ❤️                          
              * Some texts were generated using ChatGPT and adapted by the author.
+             * Learn Streamlit and more in my [YouTube Channel](https://www.youtube.com/@ellocodelosdatos) **(In Spanish)**
              """)
 
 # Dashboard start
