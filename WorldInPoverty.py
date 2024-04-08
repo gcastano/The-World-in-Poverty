@@ -154,7 +154,7 @@ with c1:
     with c01:
         st.image('woman-sad.svg',width=200)
     with c02:
-        st.subheader('National news are not as positive as we would like... sorry')
+        st.subheader('National news is not as positive as we would like... sorry 😢')
         st.write("""                
 National poverty lines delineate the income threshold below which individuals or households are deemed impoverished within a particular country. They are determined by governments and factor in regional disparities, cost of living variations, and socio-economic conditions unique to each nation. Unlike global poverty measures, which offer a broad perspective across countries, national poverty lines provide a localized understanding of poverty within specific contexts.
 
